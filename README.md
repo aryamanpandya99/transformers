@@ -1,33 +1,36 @@
 # Transformers
 
-This repository serves as a comprehensive record of my implementation and exploration of the Transformer architecture. It's intended to dissect and comprehend the model's components through practical application for different use cases.
+This repository is dedicated to the implementation and exploration of Transformer models. It aims to provide an in-depth understanding of the architecture and its components by applying it to various use cases.
 
 ## Introduction
 
-The Transformer model stands as a cornerstone in the realm of natural language processing and is now unifying different sub-areas of deep learning. This project is an effort to decode its complexity by piecing together its elements one at a time.
+The Transformer model has revolutionized natural language processing and beyond. This project aims to demystify the model by breaking down and reconstructing its components, providing a hands-on experience with its mechanics.
 
 ## Repository Structure
 
-- `/notebooks` - Contains Jupyter notebooks that meticulously detail the coding process and explanations for each segment of the Transformer.
-  - `transformer_from_scratch.ipynb` - A notebook documenting the sequential development of a Transformer.
+- `/models` - This directory contains the actual Transformer model implementations.
+  -  `/modules.py` - A module that includes custom functions and classes essential for the Transformer model.
+  - `/transformer_blocks.py` - Defines different types of Transformer blocks model.
 
-- `/Attention and Transformers.pdf` - My notes on the transformer architecture from watching lectures online and reading the paper.
+- `/notebooks` - Jupyter notebooks with detailed code and narrative explanations:
+  - `encoder_only_classification.ipynb` - Illustrates how to apply the Transformer encoder for classification tasks.
+  - `transformer_scratchpad.ipynb` - A notebook for trying out new ideas and code snippets.
+
+- `Attention and Transformer Networks.pdf` - A collection of notes on the Transformer architecture, compiled from various lectures and the seminal paper.
 
 ## Use Cases Explored
 
-(As use cases are tackled and implemented, this section will catalog them with succinct descriptions and references to the corresponding notebooks.)
+In this section, we document the specific use cases that have been implemented:
 
-## Getting Started
+- **Encoder-Only Classification**: Demonstrated in `encoder_only_classification.ipynb`, showcasing how an encoder can be adapted for classification purposes.
 
-To engage with this repository:
-
-1. Clone the repository to your local system.
-2. Ensure the prerequisites listed in [requirements.txt](requirements.txt) are installed.
-3. Navigate through the notebooks in the `/notebooks` directory to explore the implementations.
+*More use cases will be added as the project progresses.*
 
 ## Acknowledgments
 
-- This work is inspired by the "Attention is All You Need" paper by Vaswani et al., which introduced the Transformer model.
-- Prof. Pascal Poupart's open Waterloo Machine learning lectures on YouTube
+This project is inspired by the groundbreaking work in the paper "Attention is All You Need" by Vaswani et al.
 
-Note: This README will be periodically updated to reflect the progression and expansion of the project.
+A special thanks to:
+- The educational content from Prof. Pascal Poupart's Machine Learning lectures available on YouTube.
+
+*Note: This README is updated regularly to capture the ongoing development and additions to the project.*
