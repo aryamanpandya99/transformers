@@ -12,7 +12,7 @@ class TransformerLayer(nn.Module):
     """
     def __init__(self, d_k, d_model, d_v, num_heads, d_ff, mask, dropout) -> None:
         super(TransformerLayer, self).__init__()
-        self.multihead_attention = MultiHeadAttention(d_k, d_model, d_v, dropout, num_heads, mask)
+        self.multihead_attention = MultiHeadAttention(d_k=d_k, d_model=d_model, d_v=d_v, dropout=dropout, num_heads=num_heads, mask=mask)
         self.pointwise_ffn = PositionWiseFFN(d_model, d_ff, dropout)
 
     def forward(self, x):
