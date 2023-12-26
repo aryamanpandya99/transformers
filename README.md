@@ -23,8 +23,7 @@ The Transformer model has revolutionized natural language processing and beyond.
 In this section, we document the specific use cases that have been implemented:
 
 - **Encoder-Only Classification**: Demonstrated in `encoder_only_classification.ipynb`, showcasing how an encoder can be adapted for classification purposes.
-
-*More use cases will be added as the project progresses.*
+- Work in progress...
 
 ## Acknowledgments
 
