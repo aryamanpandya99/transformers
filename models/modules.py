@@ -8,6 +8,7 @@ from torch import nn
 def scaled_dot_product_attention(q, k, d_k, mask):
     scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(d_k)
     if mask is True:
+        mask = torch.tril(torch.ones(scores.shape))
         scores = scores.masked_fill(mask == 0, float('-inf'))
     return nn.Softmax(-1)(scores)
 
