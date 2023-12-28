@@ -14,7 +14,9 @@ The Transformer model has revolutionized natural language processing and beyond.
 
 - `/notebooks` - Jupyter notebooks with detailed code and narrative explanations:
   - `encoder_only_classification.ipynb` - Illustrates how to apply the Transformer encoder for classification tasks.
+  - `decoder_only_gpt.ipynb`- Exploration of language modeling with a decoder only Transformer like GPT.
   - `transformer_scratchpad.ipynb` - A notebook for trying out new ideas and code snippets.
+  
 
 - `Attention and Transformer Networks.pdf` - A collection of notes on the Transformer architecture, compiled from various lectures and the seminal paper.
 
