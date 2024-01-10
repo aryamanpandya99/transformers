@@ -4,7 +4,7 @@ This repository is dedicated to the implementation and exploration of Transforme
 
 ## Introduction
 
-The Transformer model has revolutionized natural language processing and beyond. This project aims to demystify the model by breaking down and reconstructing its components, providing a hands-on experience with its mechanics.
+The Transformer model has revolutionized natural language processing and beyond. This project aims to explore the model by breaking down and reconstructing its components, providing a hands-on experience with its mechanics.
 
 ## Repository Structure
 
@@ -18,7 +18,7 @@ The Transformer model has revolutionized natural language processing and beyond.
   - `transformer_scratchpad.ipynb` - A notebook for trying out new ideas and code snippets.
   
 
-- `Attention and Transformer Networks.pdf` - A collection of notes on the Transformer architecture, compiled from various lectures and the seminal paper.
+- `Attention and Transformer Networks.pdf` - A collection of notes on the Transformer architecture, compiled from various lectures and the paper.
 
 ## Use Cases Explored
 
@@ -29,9 +29,8 @@ In this section, we document the specific use cases that have been implemented:
 
 ## Acknowledgments
 
-This project is inspired by the groundbreaking work in the paper "Attention is All You Need" by Vaswani et al.
+- "Attention is All You Need" by Vaswani et al.
 
-A special thanks to:
 - The educational content from Prof. Pascal Poupart's Machine Learning lectures available on YouTube.
 
 *Note: This README is updated regularly to capture the ongoing development and additions to the project.*
